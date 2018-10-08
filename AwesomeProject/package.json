@@ -33,6 +33,7 @@
     "lint-staged": "^7.3.0",
     "metro-react-native-babel-preset": "0.48.0",
     "prettier": "^1.14.3",
+    "pre-commit": "^1.2.2",
     "react-test-renderer": "16.5.0"
   },
   "jest": {
