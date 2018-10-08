@@ -5,11 +5,11 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "lint": "eslint src"
+    "lint": "eslint --ignore-path .gitignore"
   },
   "lint-staged": {
     "*.js": [
-      "eslint --ignore-path .gitignore",
+      "npm run lint",
       "git add"
     ]
   },
