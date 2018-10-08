@@ -13,11 +13,6 @@
       "git add"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "eslint --ignore-path .gitignore"
-    }
-  },
   "pre-commit": "lint:staged",
   "dependencies": {
     "pre-commit": "^1.2.2",
@@ -34,7 +29,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "husky": "^1.1.1",
+    "husky": "^0.14.3",
     "jest": "23.6.0",
     "lint-staged": "^7.3.0",
     "metro-react-native-babel-preset": "0.48.0",
