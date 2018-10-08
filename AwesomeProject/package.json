@@ -5,15 +5,15 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "lint": "eslint src",
-    "precommit": "lint-staged"
+    "lint": "eslint src"
   },
   "lint-staged": {
     "*.js": [
-      "eslint --fix src",
+      "eslint --ignore-path .gitignore",
       "git add"
     ]
   },
+  "pre-commit": "lint:staged",
   "dependencies": {
     "react": "16.5.0",
     "react-native": "0.57.2"
